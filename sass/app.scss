@@ -1,0 +1,10 @@
+//Bootstrap variables import
+@import "sass/_customVariables.scss";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+h2 {
+  font-size: $font-size-h2;
+}
+p {
+  font-size: $font-size-base;
+}
