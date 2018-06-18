@@ -1,3 +1,5 @@
 //Bootstrap variables import
 
-@import "~bootstrap/scss/bootstrap";
+@import "../node-modules/bootstrap/scss/bootstrap.scss";
+@import '~bootstrap/scss/navbar.scss';
+@import '~bootstrap/scss/nav.scss';

@@ -10,7 +10,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.(scss)$/,
+        test: /\.(scss)$/,
         use: [
           {
             // Adds CSS to the DOM by injecting a `<style>` tag
@@ -26,6 +26,7 @@ module.exports = {
             options: {
               plugins: function () {
                 return [
+                  require('precss'),
                   require('autoprefixer')
                 ];
               }
