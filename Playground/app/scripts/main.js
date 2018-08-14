@@ -1,9 +1,9 @@
 console.log('\'Allo \'Allo!');
 
 var animationInObj = {
-    width: "100%",
+    width: "90%",
     opacity: 0.4,
-    fontSize: "3em",
+    fontSize: "1.5em",
 };
 var animationOutObj = {
     width: "60%",
