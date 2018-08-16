@@ -1,0 +1,23 @@
+.slider {
+  max-width: 100%;
+  max-height: 250px;
+
+}
+.slide1 {
+  position: absolute;
+  width: 99%;
+  height: 88%;
+}
+.slide1 {
+  background-color: #052324;
+      background-size: cover;
+    animation:fade 1s;
+-webkit-animation:fade 0.5s;
+
+}
+@keyframes fade
+{
+  0%   {opacity:0.25}
+  100% { opacity: 1}
+
+}
