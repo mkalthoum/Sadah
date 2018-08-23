@@ -1,0 +1,147 @@
+/*general styling*/
+figcaption {
+  margin-top: 10px;
+  .caption {
+    font-size: 14px;
+    font-weight: 500;
+    color: #727272;
+  }
+}
+time {
+  font-family: 'proxima-nova';
+font-size: 14px;
+font-weight: 500;
+color: #727272;
+text-transform: uppercase;
+position: relative;
+top: -9px;
+}
+h2 {
+  line-height: 25px;
+}
+
+    @media only screen and (min-width: 300px) and (max-width: 767px) {
+      body {
+        background: #fff;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #333;
+        font-size: 20px;
+
+      }
+      main {
+        margin-right: auto;
+          margin-left:  auto;
+
+          padding-right: 15px;
+          padding-left:  20px;
+
+      }
+      article {
+        width: 90%;
+        grid-column: span 1;
+
+        img {
+          width: 100%;
+        }
+
+      }
+      div .container {
+        display: grid;
+          grid-template-columns: 100%;
+      }
+
+
+    }
+
+/*Desktop  */
+@media only screen  and (min-width: 1536px) and (max-width: 2100px) {
+  body {
+    background: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+
+  }
+  main {
+    margin-right: auto;
+      margin-left:  auto;
+      max-width: 1700px;
+      padding-right: 10px;
+      padding-left:  10px;
+  }
+}
+
+/*laptops*/
+@media only screen  and (min-width: 1024px) and (max-width: 1536px) {
+  body {
+    background: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+  }
+  main {
+    margin-right: auto;
+      margin-left:  auto;
+      max-width: 1424px;
+      padding-right: 25px;
+      padding-left:  25px;
+}
+      article {
+        width: 24%;
+        grid-column-gap: 30px;
+    display: inline-grid !important;
+        grid-column: span 4;
+        img {
+          width: 80%;
+        }
+        h2 {
+          line-height: 35px;
+          max-width: 80%;
+        }
+        p {
+          max-width: 80%;
+        }
+      }
+      div .container {
+        display: inline-grid !important;
+    grid-template-columns: 25% 25% 25% 25%;
+      }
+}
+
+/* iPads (portrait and landscape) */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  body {
+    background: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 20px;
+  }
+  main {
+    margin-right: auto;
+      margin-left:  auto;
+      max-width: 800px;
+      padding-right: 10px;
+      padding-left:  10px;
+      line-height: 20px;
+  }
+  article {
+    width: 31%;
+    grid-column-gap: 20px;
+display: inline-grid !important;
+    grid-column: span 3;
+    img {
+      width: 80%;
+    }
+    h2 {
+      line-height: 35px;
+      max-width: 80%;
+    }
+    p {
+      max-width: 80%;
+    }
+  }
+  div .container {
+    display: inline-grid !important;
+grid-template-columns: 33% 33% 33%;
+  }
+}

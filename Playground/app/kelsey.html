@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8">
@@ -7,25 +8,39 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
       <head>
+        <script src="/bower_components/jquery/dist/jquery.js"></script>
+        <script src="scripts/jquery.keyframes.js"></script>
       <link rel="stylesheet" href="styles/kelsey.css">
-        <script src="/bower_components/modernizr/modernizr.js"></script>
         <script src="/scripts/kelsey.js"></script>
+
   </head>
   <body>
-    <div class="header">
-    <h1>K</h1>
-    </div>
+
+          <header>
+            <div class="nav">
+              <ul>
+                <li class="home"><a href="/index.html">Home</a></li>
+                <li class="kelsey"><a class="active" href="/kelsey.html">Kelsey</a></li>
+                <li class="boilerplate"><a href="/boilerplate.html">Boilerplate</a></li>
+
+              </ul>
+            </div>
+          </header>
+
     <div class='slider'>
 
 
-  <div class='slide1'> <img class="img-style" id="image" src="/images/kelsey-face.png" alt="This is the Display Image" />
+  <div class='slide1'>
+    <div class="spin-container">
+    <div class="ball">
+      <img class="img-style" id="image" src="/images/kelsey-face.png" alt="Spin the hell out of me" />
 
-<input type="button" class="btn-primary" value="click" id="clickme">
+    </div>
+      <input type="button" class="btn-primary" onclick="play('spin')" value="Spin" />
+      <input type="button" class="btn-primary" onclick="pause()" value="Pause" />
 </div>
 </div>
-<script src="/bower_components/jquery/dist/jquery.js"></script>
-<script src="/bower_components/modernizr/modernizr.js"></script>
-<script src="scripts/main.js"></script>
-<script src="scripts/controllers/main.js"></script>
+</div>
+
 </body>
 </html>
